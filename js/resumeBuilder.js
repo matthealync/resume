@@ -83,34 +83,34 @@ work.display();
 
 var education = {
   "schools": [
-        {
-          "name": "Community Collage of the Air Force",
-          "location": "North Charleston, SC",
-          "degree": "Associates",
-          "major": ["Applied Science"],
-          "dates": "1999"
-        }
+    {
+      "name": "Community Collage of the Air Force",
+      "location": "North Charleston, SC",
+      "degree": "Associates",
+      "major": ["Applied Science"],
+      "dates": "1999"
+    }
   ],
   "onLineCourses": [
-         {
-            "title": "Intro to HTML & CSS",
-            "school": "Udacity",
-            "dates": "2015"
-         },
-         {
-            "title": "How To Use Git & GitHub",
-            "school": "Udacity",
-            "dates": "2015"
-         },
-         {
-            "title": "Javascript Basics",
-            "school": "Udacity",
-            "dates": "2015"
-         }, {
-            "title": "Intro to jQuery",
-            "school": "Udacity",
-            "dates": "2015"
-         }
+    {
+      "title": "Intro to HTML & CSS",
+      "school": "Udacity",
+      "dates": "2015"
+    },
+    {
+      "title": "How To Use Git & GitHub",
+      "school": "Udacity",
+      "dates": "2015"
+    },
+    {
+      "title": "Javascript Basics",
+      "school": "Udacity",
+      "dates": "2015"
+    }, {
+      "title": "Intro to jQuery",
+      "school": "Udacity",
+      "dates": "2015"
+    }
   ],
   display: function() {
     for(school in this.schools) {
@@ -140,7 +140,6 @@ var education = {
     }
   }
 };
-
 education.display();
 
 var projects = {
@@ -165,5 +164,6 @@ var projects = {
   }
 }
 projects.display();
+
 $("#mapDiv").append(googleMap);
 initializeMap();
