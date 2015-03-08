@@ -1,0 +1,9 @@
+Web Sites:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+Forums:
+http://discussions.udacity.com/c/nd001-2015-01-07/project-2
+
+Github:
+https://github.com/matthealync/resume.git
+
