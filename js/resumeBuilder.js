@@ -41,7 +41,7 @@ var bio = {
     $("#footerContacts").append(formattedEmail);
     $("#footerContacts").append(formattedGithub);
     $("#footerContacts").append(formattedLocation);
-	}
+  }
 };
 bio.display();
 
@@ -59,7 +59,7 @@ var work = {
      "title":"Communications Specialist",
      "employer": "USAF",
      "years": "1977 - 1999",
-     "location" : "Multiple Locations",
+     "location" : "Myrtle Beach, SC",
      "description" : "All aspects of USAF communications systems including main frame operations, communications center operations, and small computer inventory."
     }
   ],
